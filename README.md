@@ -30,6 +30,11 @@ install the required packages
 pip3 install -r requirements.txt
 ```
 
+download nltk corpora
+```bash
+python3 -m nltk.downloader punkt wordnet averaged_perceptron_tagger -d ./nltk_data
+```
+
 create a database
 ```bash
 python3 run.py createdb
