@@ -41,7 +41,7 @@ To process some text files, first make sure that the directory
 the files are in, don't contain .txt files you do not wish to process.
 then in shell:
 ```bash
-python3 run.py updatedb path <path to files directory>
+python3 run.py updatedb --path <path to files directory>
 ```
 
 Now to get a report of 10 most common words in the processed files:
